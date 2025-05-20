@@ -10,9 +10,7 @@ export const Home = () => {
             </h1>
 
             <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-                I'm a full-stack developer who loves crafting clean, scalable web 
-                applications. My goal is to build solutions that offer both 
-                exceptional performance and a delightful user experience
+                A highschool graduate who loves playing guitar, drawing, games, and coding. The creative industry is something thats always had my interest, if I can make something, I'll make it.
             </p>
             <div className="flex justify-center space-x-4">
                 <a href="#projects" className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59. 130, 246, 0.4)]">

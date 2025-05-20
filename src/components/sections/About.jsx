@@ -2,9 +2,9 @@ import { RevealOnScroll } from "../RevealOnScroll"
 
 export const About = () => {
 
-    const frontendSkills = ["React", "Vue", "TypeScript", "TailwindCss", "Svelte"]
+    const frontendSkills = ["HTML5", "CSS", "React", "C#", "Swift", "TypeScript", "TailwindCss"]
 
-    const backendSkills = ["Node.js", "Python", "AWS", "MongoDB", "GraphQL"]
+    const backendSkills = [  "PHP", "SQL", "JavaScript","Node.js", "Python", "AWS", "MongoDB"]
 
 
     return <section id="about" className="min-h-screen flex items-center justify-center py-20">
@@ -16,8 +16,7 @@ export const About = () => {
 
             <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
                 <p className="text-gray-300 mb-6">
-                    Passionate developer with expertise in building scalable web
-                    applications and creating innovative solutions
+                    Passionate developer with expertise in backend development and learning new languages
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -50,7 +49,16 @@ export const About = () => {
                         <h3 className="text-xl font-bold mb-4"> Education </h3>
                         <ul className="list-disc list-inside text-gray-300 space-y-2">
                             <li>
-                                <strong> B.S. in Computer Science </strong> - XYZ University (2016-2020)
+                                <strong> High School Diploma </strong> - Sandra Day O'Connor (2021-2025)
+                            </li>
+                            <li>
+                                Relevant Classes: AP Literature, <strong> 4 Years </strong> Art, College Algebra
+                            </li>
+                            <li>
+                                <strong> HTML5 & CSS Certified </strong> - West Mec Central Campus (2023-2024)
+                            </li>
+                            <li>
+                                <strong> Javascript Certified </strong> - West Mec Central Campus (2024-2025)
                             </li>
                             <li>
                                 Relevant Coursework: Data Structure, Web Development, Cloud Computing
@@ -61,12 +69,13 @@ export const About = () => {
                         <h3 className="text-xl font-bold mb-4"> Work Experience </h3>
                         <div className="space-y-4 text-gray-300">
                             <div>
-                                <h4 className="font-semibold"> SoftWare Engineer at ABC Corp (2020-present) </h4>
-                                <p> Developed and maintained microservices for cloud-based applications.</p>
+                                <h4 className="font-semibold"> McDonalds Team Member (2023-present) </h4>
+                                <h4 className="font-semibold"> Burger King Team Member (2023) </h4>
+                                <p> Making Orders, taking orders, putting orders together, helping customers, and cleaning the kitchen and lobby.</p>
                             </div>
                             <div>
-                                <h4 className="font-semibold"> Intern at DEF Startups (2019) </h4>
-                                <p> Assisted in building front-end components and intergration REST APIs</p>
+                                <h4 className="font-semibold"> Worship Conductor - Vineyard Church North Phoenix (2025) </h4>
+                                <p>  Building and Making tracks, printing music, setting stage, going through auditions for Main service and the youth worship. </p>
                             </div>
                         </div>
                 </div>
