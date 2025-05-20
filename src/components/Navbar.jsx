@@ -12,7 +12,7 @@ import { useEffect } from "react";
             <div className="flex justify-between items-center h-16">
                 <a href="#home" className="font-mono text-xl font-bold text-white">
                     {" "}
-                    andrew<span className="bg-gradient-to-r from-orange-500 to-purple-600 bg-clip-text text-transparent leading-right">.tech</span>{" "}
+                    andrew<span className="bg-gradient-to-r from-orange-500 to-purple-600 bg-clip-text text-transparent leading-right">.lopez</span>{" "}
                 </a>
 
                 <div className="w-7 h-5 relative cursor-pointer z-40 md:hidden" onClick={() => setMenuOpen((prev) => !prev)}>
